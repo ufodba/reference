@@ -1,0 +1,66 @@
+html5：
+day1:
+	语义化标签、表单新控件、新属性、验证
+	重点：拖拽事件  拖拽元素，目标事件
+	顺序 ondrop（） 触发条件
+
+day2：canvas
+	画布 基本方块绘制、路径绘制、fill stroke
+	画布基本样式设置
+	画布变换 save restore
+	背景  图像绘制  图像数据获取 data rgba
+
+day3：
+	Geolocation API 地图定位  单次定位  多次定位
+	百度地图接口
+	缓存 storageAPI 临时  永久  分享
+	storage事件 ：数据改变的时候，触发页面--》共享
+	音视频标签
+
+CSS3：
+
+day1：伪类选择器、属性选择器、表单 文本相关：阴影、描边、文字省略、文字排列
+day2：弹性盒模型：display：box、inline-box（浏览器支持）
+	FF：-moz  chrome：-webkit  opera：-o   IE9+：-ms
+	
+	排列位置，布局方向，弹性空间值，富裕空间
+	
+	基本盒模型：阴影 自由缩放 倒影 
+	分栏布局、响应式布局：@media  @import url('css1.css')  link media
+	
+day3:动画 2d 3d
+	过渡：transition
+	transform：旋转 缩放 位移 倾斜
+	变换基点 transform-origin
+	
+	动画帧  animation:time name
+	
+jquery:
+day1:jq基本认识
+	选择元素 样式修改css（）  事件操作（函数化） 链式操作 
+	内容html()  属性attr() 值val() 获取跟设置 
+	节点选择 prev（） next（） prevALL() nextAll() siblings()
+	class操作 addClass() removeClass() toggleClass()  hasClass()
+day2:
+	节点选择 first last slice children find  $('ul li')
+	父级元素选择：parent  parents closest
+	节点创建 $('li') $('<li  id=''>hello</li>')  str='<p>ppp</p>'
+	节点添加 子元素添加  兄弟节点
+	each遍历 i elem-》this
+	包装
+day3：尺寸相关
+	元素尺寸
+	可视区window与文档document尺寸
+	偏移距离  定位距离
+	事件对象 ：鼠标位置  键盘值witch 
+	事件阻止：冒泡 默认
+	事件委托： delegate（）参数
+	工具方法：类型判断
+	命名空间：在系统方法后以点语法形式加字符串
+	on方法：多事件写法 
+	trigger主动触发
+day4：
+	显示与隐藏 ，时间
+	animate：参数{}
+	jqAjax：$.ajax()  $.post()  $.get()	
+	url:  type: async: success: error:
